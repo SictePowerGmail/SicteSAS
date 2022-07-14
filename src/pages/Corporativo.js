@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-export const Corporativo = () => {
-  return (
-    <div>
+export default class Corporativo extends Component {
+  render() {
+    return (
       <iframe
         title="CorporativoSeguimiento"
         width="100%"
@@ -11,8 +11,6 @@ export const Corporativo = () => {
         frameBorder="0"
         allowFullScreen={true}>
       </iframe>
-    </div>
-  )
+    )
+  }
 }
-
-export default Corporativo
