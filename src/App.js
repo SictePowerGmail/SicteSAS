@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import {
   BrowserRouter as Router,
   Route,
-  Routes,
+  Routes
 } from "react-router-dom";
 import Inicio from "./pages/Inicio";
 import Corporativo from "./pages/Corporativo";
