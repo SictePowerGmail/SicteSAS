@@ -29,6 +29,9 @@ const Navbar = () => {
                 </p>
                 <p>
                     Centro de reportes
+                    <Link to="/Corporativo">
+                        Este si
+                    </Link>
                 </p>
             </LogoContainer>
                 <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -59,11 +62,15 @@ const Navbar = () => {
                         <SubMenuItem>
                             <SubMenuItemLink>Reporte</SubMenuItemLink>
                         </SubMenuItem>
+
                     </SubMenu>
-                
+                    <SubMenu>
+                        <SubMenuItem>
                     <Link to="/Corporativo">
                         Este si
                     </Link>
+                    </SubMenuItem>
+                    </SubMenu>
 
                 </MenuItem>
                 <MenuItem>
