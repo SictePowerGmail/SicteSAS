@@ -2,9 +2,8 @@ import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import {
   BrowserRouter as Router,
-  Routes,
   Route,
-  Link
+  Routes,
 } from "react-router-dom";
 import Inicio from "./pages/Inicio";
 import Corporativo from "./pages/Corporativo";
