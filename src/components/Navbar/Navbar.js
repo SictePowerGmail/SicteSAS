@@ -9,7 +9,6 @@ import {
     FaGlasses
 } from "react-icons/fa";
 import { IconContext } from 'react-icons';
-import { Link } from 'react-router-dom'
 
 
 
@@ -29,9 +28,6 @@ const Navbar = () => {
                 </p>
                 <p>
                     Centro de reportes
-                    <Link to="/Corporativo">
-                        Este si
-                    </Link>
                 </p>
             </LogoContainer>
                 <MobileIcon onClick={() => setShowMobileMenu(!showMobileMenu)}>
@@ -41,7 +37,7 @@ const Navbar = () => {
                 </MobileIcon>
             <Menu open={showMobileMenu}>
                 <MenuItem>
-                    <MenuItemLink href='/Inicio'>
+                    <MenuItemLink to='/Inicio'>
                         <div>
                             <FaHome />
                             Inicio
@@ -49,7 +45,7 @@ const Navbar = () => {
                     </MenuItemLink>
                 </MenuItem>
                 <MenuItem>
-                    <MenuItemLink href='/Planeacion'>
+                    <MenuItemLink to='/Planeacion'>
                         <div>
                             <FaUserAlt />
                             Planeación
@@ -64,17 +60,10 @@ const Navbar = () => {
                         </SubMenuItem>
 
                     </SubMenu>
-                    <SubMenu>
-                        <SubMenuItem>
-                    <Link to="/Corporativo">
-                        Este si
-                    </Link>
-                    </SubMenuItem>
-                    </SubMenu>
 
                 </MenuItem>
                 <MenuItem>
-                    <MenuItemLink href='/Corporativo'>
+                    <MenuItemLink to='/Corporativo'>
                         <div>
                             <FaBriefcase />
                             Corporativo
@@ -90,7 +79,7 @@ const Navbar = () => {
                     </SubMenu>
                 </MenuItem>
                 <MenuItem>
-                    <MenuItemLink href='/Mantenimiento'>
+                    <MenuItemLink to='/Mantenimiento'>
                         <div>
                             <FaGlasses />
                             Mantenimiento
@@ -106,7 +95,7 @@ const Navbar = () => {
                     </SubMenu>
                 </MenuItem>
                 <MenuItem>
-                    <MenuItemLink href='/ReporteCorporativo'>
+                    <MenuItemLink to='/ReporteCorporativo'>
                         <div>
                             <FaGlasses />
                             Reporte

@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     width: 100%;
@@ -76,7 +76,7 @@ export const MenuItem = styled.li`
     }
     `;
 
-export const MenuItemLink = styled.a`
+export const MenuItemLink = styled(Link)`
     text-decoration:none;
     display: flex;
     justify-content: center;
