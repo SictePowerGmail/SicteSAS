@@ -14,19 +14,17 @@ import ReporteCorporativo from "./pages/ReporteCorporativo";
 
 function App() {
   return (
-    
     <Router>
       <Navbar />
       <Routes>
-      <Route path='/' exact element={<Inicio/>} />
-      <Route path='/Inicio' element={<Inicio/>} />
-      <Route path='/Planeacion' element={<Planeacion/>}/>
-      <Route path='/Corporativo' element={<Corporativo/>} />
-      <Route path='/Mantenimiento' element={<Mantenimiento/>}/>
-      <Route path='/ReporteCorporativo' element={<ReporteCorporativo/>}/>
+        <Route path='/' exact element={<Inicio />} />
+        <Route path='/Inicio' element={<Planeacion />} />
+        <Route path='/Planeacion' element={<Planeacion />} />
+        <Route path='/Corporativo' element={<Corporativo />} />
+        <Route path='/Mantenimiento' element={<Mantenimiento />} />
+        <Route path='/ReporteCorporativo' element={<ReporteCorporativo />} />
       </Routes>
-    </Router>  
-
+    </Router>
   );
 }
 
