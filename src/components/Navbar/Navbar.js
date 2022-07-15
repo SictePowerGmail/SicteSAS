@@ -22,7 +22,6 @@ const Navbar = () => {
 
             
             <LogoContainer>
-                
                 <p>
                     Sicte 
                 </p>
