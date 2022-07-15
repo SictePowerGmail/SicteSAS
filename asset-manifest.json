@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/SicteSAS/static/css/main.98a9da65.css",
-    "main.js": "/SicteSAS/static/js/main.dfc81739.js",
+    "main.js": "/SicteSAS/static/js/main.d5b12fbe.js",
     "index.html": "/SicteSAS/index.html",
     "main.98a9da65.css.map": "/SicteSAS/static/css/main.98a9da65.css.map",
-    "main.dfc81739.js.map": "/SicteSAS/static/js/main.dfc81739.js.map"
+    "main.d5b12fbe.js.map": "/SicteSAS/static/js/main.d5b12fbe.js.map"
   },
   "entrypoints": [
     "static/css/main.98a9da65.css",
-    "static/js/main.dfc81739.js"
+    "static/js/main.d5b12fbe.js"
   ]
 }
