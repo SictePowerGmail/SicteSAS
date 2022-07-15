@@ -9,6 +9,7 @@ import {
     FaGlasses
 } from "react-icons/fa";
 import { IconContext } from 'react-icons';
+import { Link } from 'react-router-dom'
 
 
 
@@ -59,6 +60,11 @@ const Navbar = () => {
                             <SubMenuItemLink>Reporte</SubMenuItemLink>
                         </SubMenuItem>
                     </SubMenu>
+                
+                    <Link to="/Corporativo">
+                        Este si
+                    </Link>
+
                 </MenuItem>
                 <MenuItem>
                     <MenuItemLink href='/Corporativo'>
