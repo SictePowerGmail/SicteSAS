@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from "./components/Navbar/Navbar";
 import {
   BrowserRouter as Router,
@@ -15,7 +16,6 @@ import ReporteCorporativo from "./pages/ReporteCorporativo";
 function App() {
   return (
     
-    <>
     <Router>
       <Navbar />
       <Routes>
@@ -27,7 +27,7 @@ function App() {
       <Route path='/ReporteCorporativo' element={<ReporteCorporativo/>}/>
       </Routes>
     </Router>  
-    </>
+
   );
 }
 
